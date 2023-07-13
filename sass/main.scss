@@ -1,0 +1,147 @@
+
+$color-primary:#55c57a;
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+
+body{
+     font-family:  sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    color: black;
+    padding: 10px;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+.header{
+    background-image:linear-gradient(rgba($color-primary ,0.8),rgba(68, 30, 227, 0.8)),url(imgs/pexels-sound-on-3394668.jpg);
+    background-color:green;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+     position: relative;
+    clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+   
+}
+
+.logo-box{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.logo{
+    height: 40px;
+}
+
+.all-header-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.main-heading{
+    text-transform: uppercase;
+    color: white;
+      
+}
+
+.main-header{
+    display: block;
+    font-size: 90px;
+    animation-name:  moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    letter-spacing: 20px;
+}
+
+.sub-header{
+    font-size: 17px;
+    display: block;
+    text-align:center;
+    animation: moveInRight 1s ease-out;
+    margin-bottom: 50px;
+    margin-top: -10px;
+}
+
+@keyframes moveInLeft{
+    0%{
+       opacity: 0; 
+       transform: translateX(-100px);
+    }
+    
+     
+  
+    
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight{
+    0%{
+       opacity: 0; 
+       transform: translateX(100px);
+    }
+    
+   
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@keyframes movefrombottom{
+    0%{
+        
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+        
+    }
+}
+
+
+.btn:link,
+.btn:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #716e6e;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+    animation: movefrombottom 0.8s ease-out 0.9s;
+    animation-fill-mode: backwards;
+    
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.btn-full{
+    background-color:white;
+    color: #5a5858;
+}

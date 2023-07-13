@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+
+.row{
+    max-width:1200px ;
+    margin: 0 auto 0 auto;
+    
+ 
+}
+
+/*------------------------------
+----------REUSABLE--------------*/
+h1{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+h2{
+   
+}
+h3{
+   text-align: center;
+    font-size: 30px;
+}
+
+h4{
+    
+}
+
+h5{
+    
+}
+
+h6{
+   
+}
+
+
+
+
+
+/*
+.row:last-child{
+    max-width: 114rem;
+    background-color: #eee;
+    margin: 0 auto;
+}
+
+.col-1-of-2{
+    width: calc((100% - 6rem)/2);
+    background-color: orange;
+    float: left;
+    margin-right: 8rem;
+    
+}
+*/
+
+body{
+     font-family:  sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    color: black;
+    padding: 0px;
+}
+
+.top-header{
+    position: relative;
+     background-color: black;
+    padding: 30px;
+   /* border-bottom: 1px solid white;--*/
+    
+}
+
+.main-nav{
+    float: right;
+    
+    
+   
+}
+
+.sub-nav{
+    float: right;   
+   
+}
+
+.sub-nav li{
+     display: inline-block;
+    list-style: none;
+    margin-right: 50px;
+    text-transform: uppercase;
+    
+}
+
+.sub-nav a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.sub-nav a:hover{
+    text-decoration: none;
+    color: orange;
+}
+
+.first-section-services{
+    background-image: url(imgs/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 15vh;
+    color: white;
+}
+
+.second-section-services{
+    padding-top: 25px;
+    background-color: #f4f2f2;
+    padding-bottom: 10rem;
+}
+
+
+.grid-pic{
+    height: 230px;
+     border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    
+}
+.grid-image{
+   
+}
+.grid-image:after{
+   
+}
+
+.service-heading{
+    background-color: #ebebeb;
+    width: 96.5%;
+    padding: 20px;
+    
+}
+
+.grid-pic:after{
+     border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+}
+.long-copy{
+font-size: 15px;
+margin-bottom: 9px;}
+
+.btn-services{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 10px 15px;
+    
+}
+
+footer{
+background-color: #313131;
+padding-bottom: 0px;
+color: white;
+padding-top: 35px;
+}
+
+.last-text{
+margin-top: 50px;
+margin-left: 80px;}
+
+.first-section-pricing{
+    background-image: url(imgs/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    color: white;
+}
+
+.first-text-pricing{
+    text-align: center;
+}
+
+
+
+@keyframes MoveInLeft{
+    0%{
+       opacity: 0;
+       transform:translate(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+

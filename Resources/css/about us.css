@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+
+.row{
+    max-width:1200 ;
+    margin: 0 auto;
+    margin-bottom: 8rem;  
+ 
+}
+
+body{
+     font-family:  sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    color: black;
+    padding: 0px;
+}
+
+.top-header{
+    position: relative;
+     background-color: black;
+    padding: 30px;
+   /* border-bottom: 1px solid white;--*/
+    
+}
+
+.main-nav{
+    float: right;
+    
+    
+   
+}
+
+.sub-nav{
+    float: right;   
+   
+}
+
+.sub-nav li{
+     display: inline-block;
+    list-style: none;
+    margin-right: 50px;
+    text-transform: uppercase;
+    
+}
+
+.sub-nav a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.sub-nav a:hover{
+    text-decoration: none;
+    color: orange;
+}
+
+.first-section-aboutus{
+    background-image: url(imgs/1.jpg);
+    height: 15vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 20px;
+}
+
+h1{
+    
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.second-section-aboutus{
+    background-color: #f7f5f5;
+    padding-bottom: 20px;
+   
+}
+.sec-first-heading{
+    padding: 20px;
+    margin-top: 30px;
+    border-bottom: 1px solid orange;
+    
+}
+
+h2{
+   font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    background-color: orange;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;   
+}
+
+.border-text{
+    background-color: white;
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0px 1px 5px;
+}
+
+.third-section{
+    background-color: #f7f5f5;
+    margin-top: -90px;
+    padding-bottom: 20px;
+    
+    
+}
+h4{
+    font-size: 20px;
+    
+}
+
+.team-photo{
+    background-color: white;
+    height: 270px;
+}
+
+footer{
+background-color: #313131;
+padding-bottom: 0px;
+color: white;
+padding-top: 35px;
+}
+
+.last-text{
+margin-top: 50px;
+margin-left: 80px;}
+
+.first-section-about{
+    background-image: url(imgs/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    color: white;
+}
+
+.first-text-about{
+    text-align: center;
+}
